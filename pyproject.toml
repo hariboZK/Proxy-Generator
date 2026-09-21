@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proxy-all-in-one"
+version = "2.0.0"
+authors = [
+  { name = "Proxy Hunter Contributors" },
+]
+description = "Fast, multi-threaded proxy scraper and live checker with geolocation and continuous hunting mode."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: Proxy Servers",
+    "Topic :: Software Development :: Testing",
+]
+dependencies = [
+    "requests>=2.31.0",
+    "PySocks>=1.7.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/example/proxy-all-in-one"
+"Bug Tracker" = "https://github.com/example/proxy-all-in-one/issues"
